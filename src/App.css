@@ -149,6 +149,7 @@ body {
   margin: 0 -5px;
   padding: 0 !important; /* Remove any unwanted padding */
   overflow: hidden; /* Prevent cards from overflowing */
+  /* overflow: visible !important; */
 }
 
 .slick-track {

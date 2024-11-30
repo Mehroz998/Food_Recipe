@@ -21,7 +21,6 @@ const ShoppingCartSlider = ({category,getCode2}) => {
     slidesToShow: Math.min(recipes.length, 8), // Show only the number of available cards or max 8
     slidesToScroll: 1,
     arrows:false,
-    lazyLoad:"ondemand",
     responsive: [
       {
         breakpoint: 1024,
@@ -32,7 +31,7 @@ const ShoppingCartSlider = ({category,getCode2}) => {
       {
         breakpoint: 765,
         settings: {
-          slidesToShow: 6,
+          slidesToShow: 2,
         },
       },
     ],
