@@ -25,15 +25,27 @@ const ShoppingCartSlider = ({category,getCode2}) => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: Math.min(recipes.length, 2),
-        },
+          slidesToShow: 6,
+          slidesToScroll: 1,
+          infinite: false,
+        }
       },
       {
-        breakpoint: 765,
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 4,
+          infinite: false,
+        }
+      },
+      {
+        breakpoint: 480,
         settings: {
           slidesToShow: 2,
-        },
-      },
+          slidesToScroll: 1,
+          infinite: true,
+        }
+      }
     ],
   };
  
