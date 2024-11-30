@@ -134,7 +134,7 @@ body {
   display: flex !important; /* Center align items */
   justify-content: center; /* Horizontal alignment */
   align-items: center; /* Vertical alignment */
-  margin: 0 5px; /* Proper spacing between cards */
+  margin: 0 7px; /* Proper spacing between cards */
   box-sizing: border-box; /* Avoid overflow due to padding */
   float: none !important;
 }

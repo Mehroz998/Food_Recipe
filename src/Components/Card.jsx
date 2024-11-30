@@ -13,7 +13,7 @@ const Card = (props) => {
     
     <div>
         <div className='card'>
-            <div className="img"><img className='img2' src={props.recipe.strMealThumb} alt="" width="100%" height="100%" /></div>
+            <div className="img"><img className='img2' src={props.recipe.strMealThumb} alt="" width="100%" height="100%" loading='lazy' /></div>
             <h6>{props.recipe.strMeal}</h6>
             <p>{props.category?`Category: ${props.category}`:`Category: ${props.recipe.strCategory}`}</p>
             <button onClick={handleClick}>Recipe</button>
